@@ -10,6 +10,9 @@ material = "1.12.0"
 activity = "1.9.2"
 constraintlayout = "2.1.4"
 
+hiltVersion = "2.49"
+kapt-version = "1.6.20"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -19,8 +22,12 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltVersion" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hiltVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+dagger-hilt-plugin = { id = "com.google.dagger.hilt.android", version.ref = "hiltVersion" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kapt-version" }
 

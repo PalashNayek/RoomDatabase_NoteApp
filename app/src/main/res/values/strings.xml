@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">RoomDatabase_NoteApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_13_apr_2024_12_30_pm">13 Apr 2024 12:30 pm</string>
+    <string name="desc">Desc</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="note_is_empty">Note is empty</string>
 </resources>
